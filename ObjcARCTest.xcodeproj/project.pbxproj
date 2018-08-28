@@ -13,6 +13,8 @@
 		94551396211D412500F76E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94551395211D412500F76E36 /* Assets.xcassets */; };
 		94551399211D412500F76E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94551397211D412500F76E36 /* LaunchScreen.storyboard */; };
 		9455139C211D412500F76E36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9455139B211D412500F76E36 /* main.m */; };
+		945513A4211D417000F76E36 /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 945513A3211D417000F76E36 /* FirstClass.m */; };
+		945513A7211D418700F76E36 /* SecondClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 945513A6211D418700F76E36 /* SecondClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		94551398211D412500F76E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9455139A211D412500F76E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9455139B211D412500F76E36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		945513A2211D417000F76E36 /* FirstClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
+		945513A3211D417000F76E36 /* FirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
+		945513A5211D418700F76E36 /* SecondClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondClass.h; sourceTree = "<group>"; };
+		945513A6211D418700F76E36 /* SecondClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				94551397211D412500F76E36 /* LaunchScreen.storyboard */,
 				9455139A211D412500F76E36 /* Info.plist */,
 				9455139B211D412500F76E36 /* main.m */,
+				945513A2211D417000F76E36 /* FirstClass.h */,
+				945513A3211D417000F76E36 /* FirstClass.m */,
+				945513A5211D418700F76E36 /* SecondClass.h */,
+				945513A6211D418700F76E36 /* SecondClass.m */,
 			);
 			path = ObjcARCTest;
 			sourceTree = "<group>";
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94551391211D412100F76E36 /* ViewController.m in Sources */,
+				945513A7211D418700F76E36 /* SecondClass.m in Sources */,
+				945513A4211D417000F76E36 /* FirstClass.m in Sources */,
 				9455139C211D412500F76E36 /* main.m in Sources */,
 				9455138E211D412100F76E36 /* AppDelegate.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FirstClass.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _sec = [[SecondClass alloc]init];
     // Do any additional setup after loading the view, typically from a nib.
+    [self callme];
+    NSLog(@"the first objc is %@",_sec.first);
+}
+
+-(void)callme {
+    FirstClass *first = [[FirstClass alloc]init];
+    _sec.first = first;
+    NSLog(@"the first objc is %@",_sec.first);
+    first = nil;
+    NSLog(@"the first objc is after nil set %@",_sec.first);
+
 }
 
 
